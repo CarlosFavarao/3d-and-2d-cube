@@ -3,7 +3,7 @@ import Cube from "@/app/ui/cube"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: 'Cubo mágico 2D'
+    title: 'Cubo mágico 2D e 3D'
 }
 
 export default function Cubes(){
