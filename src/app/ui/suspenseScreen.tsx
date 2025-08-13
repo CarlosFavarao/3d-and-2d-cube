@@ -13,7 +13,7 @@ function ImgSkeleton(){
 async function Img(){
     await wait(3000);
     return (
-        <Link href="/home/grid">
+        <Link href="/cube">
             <Image src="/pexels.jpg" alt="Imagem" width={1000} height={1000}/>
         </Link>
     )

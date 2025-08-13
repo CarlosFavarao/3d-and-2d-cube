@@ -1,15 +1,15 @@
 import React from "react"
-import HomePageScreen from "../ui/homePage"
+import SuspenseScreen from "../ui/suspenseScreen"
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: 'Home Page',
+  title: 'Imagem com suspense',
 };
 
 export default function HomePage(){
     return(
         <>
-            <HomePageScreen/>
+            <SuspenseScreen/>
         </>
     )
 }

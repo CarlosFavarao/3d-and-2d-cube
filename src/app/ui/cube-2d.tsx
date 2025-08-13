@@ -1,4 +1,4 @@
-import Element from "./grid"
+import Element from "./cube-face"
 
 export default function CubeFace(props: {value?: any, cName?: any}){
     return (
